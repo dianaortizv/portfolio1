@@ -1,0 +1,379 @@
+<!doctype html>
+<html> 
+
+<head> 
+    <meta charset="utf-8">
+    <meta name= "author" content="Diana Ortiz">
+    <title>Diana Ortiz</title>
+    <link rel="stylesheet" href="CSS/main.css"> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+    
+<!--    <script src="https://code.jquery.com/jquery-3.6.0.min.js"> </script>-->
+    <script src="JS/jquery-3.6.0.min.js"> </script>
+    <script src="JS/main.js" type="text/javascript"></script>
+    
+    
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <link href="/JS/Versatile-Touch-Slider-Plugin-jQuery-EasySlides/jquery.easy_slides.css" rel="stylesheet" type="text/css" />
+    <script src="/JS/Versatile-Touch-Slider-Plugin-jQuery-EasySlides/jquery.easy_slides.js"></script>
+
+</head>
+ 
+
+<body> 
+<!--
+   <div class= "box1">
+        <div class="cabecera"> <img class="logo" src="Images/Logo_D.png"> </div> 
+       
+   </div>
+   -->
+   
+<!-------------------- INTRODUCCION ------------------->
+<br>
+   
+    <div class= "box2">
+        <div class= "introduccion"> <h2> Hey! I'm Diana Ortiz. I make things that make people happy. </h2> </div>
+        <div class=box_links> 
+            <div class=hello_action><a href="https://www.instagram.com/dianavtz/?hl=es" target="_blank"> Follow Me </a>
+            </div>
+            
+            <div class=hello_action><a href="mycv.html" target="_blank"> My CV</a>
+            </div>
+            
+            <div class=hello_action><a href="#contact_box"> Contact me</a>
+            </div>
+            
+        </div>
+
+    </div>
+    
+    <!-------------------- BOX 3 ------------------->
+    
+     <div class=box3> 
+    <div class= "reviews" id=quote1>
+        <div class= "block-quote"> <h3> "Listening is much more important than talking, otherwise evolution would not have given us two ears and only one mouth." </h3> </div>
+        <br>
+        <div class="reference_block">
+      <!--  <div class="cite-quote"> <b>- Carlos M -</b></div> -->
+        <div class="work_reference"> - Anonymous -</div>
+         </div>
+         </div>
+    </div>   
+    
+   
+    
+    
+<!-------------------- GallerySlider-------------------> 
+
+<div class="SectionTittles"> <b>Illustration works</b></div>     
+
+  <section id="GallerySlider">
+        <div class="slider slider_one_big_picture">
+            <div><img src="/Images/newyork_night.jpg"> </div>
+            <div><img src="/Images/Atrapasuenyos.jpg"></div>
+            <div><img src="/Images/Burton.jpg"></div>
+            <div><img src="/Images/etnics.png"></div>
+            <div><img src="/Images/space.jpg"></div>
+            <div><img src="/Images/nacho_ilustrations.jpg"></div>
+            <div><img src="/Images/Copas.jpg"></div>
+            <div><img src="/Images/Nacho_and_friend.jpg"></div>
+            <div><img src="/Images/newyork_night.jpg"></div>
+            <div class="next_button"></div>
+            <div class="prev_button"></div>
+            <div class="nav_indicators"></div>
+        </div>
+        
+        
+        <script>
+            $(document).ready(function () {
+                $('.slider_one_big_picture').EasySlides({
+                    'autoplay': false,
+                    'stepbystep': false,
+                    'show': 5,
+                    'loop': true
+                })
+            });
+        </script>
+        
+        
+    </section>
+        
+        
+        
+<!-------------------- Gallery 1------------------->      
+<section id=leonaCuadro> 
+            <div class= "reviews">
+        <div class= gallery1 id=leona> 
+        <div class="image-quote"> <img src="Images/leona_cuadro.jpeg"> </div>
+        </div></div>
+</section>
+   
+    <div class= "reviews">
+  
+        <div class= "block-quote"> <h3>  "Nothing worth having comes easy" </h3> </div>
+        
+        <div class="reference_block">
+<!--        <div class="cite-quote"> -<b>Elena C.-</b></div>-->
+        <div class="work_reference">- Theodore Roosevelt, Jr -</div>
+        </div>
+        
+     </div>    
+        
+ <!-------------------- Gallery videos ------------------->    
+
+<div class="SectionTittles"> <b>Animation works</b></div>
+   
+    <div class="gallery_video"> 
+      
+        <div class= video_tittle> <b> Rotoscopy Effect </b> </div> 
+        <video id=video src="Videos/VS_Fashionshow.mp4" muted controls loop> </video> 
+
+       
+        <div class= video_tittle> <b> 2D Robotic Arm </b>   </div>
+        <video  id=video src="Videos/brazoArticulado.mp4" muted controls loop> </video> 
+      
+        
+       
+        <div class= video_tittle> <b> Tracker Effects </b> </div>
+        <video  id=video src="Videos/7_tracker.mp4" muted controls loop> </video> 
+
+         
+    </div>
+    
+
+    
+    <div class= "reviews">
+        <div class= "block-quote"><h3>"I have no special talents, but I'm deeply curious." </h3> </div>
+        
+        <div class="reference_block">
+<!--        <div class="cite-quote"> -<b>Jorge M.</b>-</div>-->
+         <div class="work_reference"> - Albert Einstein - </div>
+        </div>
+        
+       </div>
+  <!-------------------- Editorial Examples -------------------> 
+  
+        <div id=EditorialSection>
+    <div class="SectionTittles"> <b>Editorial Example</b></div>    
+       
+       <div class= "editorial_example1" >
+        <div class="image-quote"> <embed src="Docs/Unravel.pdf" type=application/pdf width=90% height=800px> </div>
+        </div> 
+        </div>    
+  
+    
+
+     
+<!---------------------PROYECTOS DESTACADOS--------------->
+   
+    <div class="box4" > 
+    
+    <div class="SectionTittles"> <b>Outstanding project</b></div> 
+       
+        <div class= "tittle-project"> <h3>#NormalizingPsychology </h3></div>
+        <div class="image_quote"> <video id=video src="Videos/Normalizapsicologia.mp4" controls> </video> </div>
+        
+        <div class= "outstanding_project"> 
+        
+        <div class="outstanding_description"> 
+        
+            <div class="cell_description"> <b> Audiovisual Project: Clinica Perez Vieco. </b> </div>
+            <div class= "cell_description"> Create with: <b>Procrate | Photoshop | Affter Effects </b></div>
+            <div class="cell_description"> Format: <b> 1920</b>x<b>1080px</b> </div>
+            <div class="cell_description"> Design and development of audio-visual project for the mental wellness clinic "Pérez Vieco". The objective was to create a piece of 1 minute duration, friendly and close, that promotes normalization of psychological help, whose intention is to destigmatize the prejudices about going to therapy. </div>
+        </div>
+        
+        
+        <div class=images_box4> <img src="Images/StoryBoard.png"> <img src="Images/Color_selection.png"> <img src="Images/technical_Development.png"> </div>
+    
+        
+        </div>
+
+       
+    </div>
+    
+    
+    <!---------------------WHY ME --------------->
+    
+    <br> 
+    
+    <div class="scheme_section">
+       
+        <div class="scheme_outstanding"> <b>WHY ME? </b></div>
+        
+        <div class=image_scheme> <img src="Images/Image_scheme.png"> </div>
+         
+        
+        <lu class="value_list">
+           
+            <li class="value_item" id="item1"> 
+            <h class="tittle_item1"><b> Curiosity & Interest</b> </h>
+            <p> Fashion, Graphic, Illustration, business and management... if this does not convince you enough: I have programmed this website and what I have left to tell you about it.</p></li>
+            
+             <li class="value_item" id="item2"> 
+            <h class="tittle_item2"><b> Determination</b></h>
+            <p> I am young and I have a lot to learn, so I try harder.</p></li>
+            
+             <li class="value_item" id="item3"> 
+            <h class="tittle_item3"><b> Coolness </b> </h>
+            <p> You may find someone else with more experience, but not someone else with more desire to do it. </p></li>
+        
+        </lu>  
+        
+    </div>
+    
+    
+    
+     <!------------------ FORMULARIO ----------------->
+
+<!-- 
+    
+    <div class= "form_box"> 
+    
+    <form action=" " method="get"> 
+        <div class="form_box_1"> 
+            
+            <div class="data_project"> 
+        
+               <div class="data_item">
+               <label class="form_label"> Your Name <input class="data_item" type = "text" autocomplete="off" name = "name" required/></label>
+               </div>
+        
+            </div>
+            
+            <div class="data_project">
+        
+                <div class="data_item">
+                <label class="form_label"> Email <input class="data_item" type = "text" autocomplete="email" name = "name" required/> </label>
+                </div>
+        
+            </div>
+            
+         </div>  
+           
+    <br> 
+            
+        <div class="form_box2"> 
+            <div class="project_class"> 
+                <div class="check_tittle"> <b>Project Class</b></div>
+            <br>
+                <div class="check">
+                <div class="check_item">
+                <input type ="checkbox" name="fashion"> Fashion </div>
+                <div class="check_item">
+                 <input type ="checkbox" name="graphic"> Graphic Design</div>
+                 </div>
+             </div>
+        <br> 
+            
+               <div class="project_description">
+                   <label class="form_label" id="textarea"> Project Description 
+                 <textarea type="text" name="proj_descrp" value class="form_field" maxlength="580" required> </textarea> </label>
+               </div>
+        </div>
+        
+    <br>
+         
+    <div class="form_box3">
+        <div class="estimation_box"> 
+          <div class="estimation_item">
+          <label class="form_label"> Budget
+          <select class="form_field" name="budget" required>
+              <option value disabled selected></option>
+              <option value="Less than 1,000"> Less than 1.000</option>
+              <option value="1,000-3,000"> 1.000-3.000</option>
+              <option value="3,000-5,000"> 3.000 - 5.000</option>
+              <option value="5,000-8,000"> 5.000 - 8.000</option> 
+              <option value="More than 8,000"> More than 8.000</option> 
+              <option value="100 it's ok"> 100 it's OK!</option>       
+            </select>
+          
+          </label>
+          </div>
+          
+          <div class="estimation_item"> 
+          <label class= "form_label"> Deadline
+          <select class="form_field" name="deadline" required> 
+              <option value disabled selected></option>
+              <option value="Yesterday"> Yesterday</option>
+              <option value="Today"> Today</option>
+              <option value="Tomorrow"> Tomorrow </option>
+              <option value="1 week"> 1 Week</option>
+              <option value="1 month"> 1 Month</option>
+              <option value="3 months"> 3 Months </option>
+              <option value="6 months"> 6 Months </option>
+              <option value="1 year "> 1 Year</option>
+              <option value="Someday, maybe?"> Someday, maybe?</option>
+          </select>
+          </label>
+          </div>
+          
+        </div> 
+    </div>
+            
+            <br> 
+        <div class="button_box"> 
+        <button type="submit" name="button" class="form_button"> <b> Let's Talk!</b></button>
+        </div>
+    </form>
+    
+    </div>
+    
+-->
+    
+    <br> 
+    <!----------------------CONTACT--------------------->
+    <div class= contact_box id="contact_box"> 
+    
+    
+    
+        <div class="contact_box1"> 
+        <div class="info_box"> Of course, you can always&nbsp;
+    
+        <a href="mailto:iamdianaortiz@gmail.com" subject= "hey!" body="Hey Di!" class="fancylink"> mail</a>, &nbsp; 
+        <a href="tel:+34-654-040-864" class="fancylink">call</a>, or&nbsp; <a href="sms:+34-654-040-864" class="fancylink"> text</a> &nbsp; me.
+        </div> 
+        </div>
+    
+    
+        <div class="contact_box2">
+     
+        <div class="info_box" id="info_box">
+        <div class="contact-link" "link-selectable"><a href="mailto:iamdianaortiz@gmail.com" class="fancylink"> iamdianaortiz@gmail.com</a></div>
+        <div class="contact-link" "link-selectable"> <a href="tel:+34-654-040-864"> +34 - 654 - 040 - 864</a></div>
+        </div>
+        </div>
+    
+    
+    
+        <div class="contact_box3"> 
+        <div class="info_box"> <b>I'm on </b> </div>
+        <div class="Various_links"> 
+        <li> 
+        <a href="https://www.instagram.com/dianavtz/?hl=es"> <b>Instagram</b></a>
+        </li>
+        
+        <li>
+        <a href="https://www.linkedin.com/in/diana-ortiz-9925ba1ab/"> <b>Linkedin</b></a>
+        </li>
+        </div>
+        </div>
+    
+     
+    </div>
+    
+    
+    <div class=copytright_bar>
+    <div class="copyright_text"> 2021 DIANA ORTIZ COMPANY S.L. All rights reserved.</div>
+    <div class="copyright_symbol"> <img src="Images/copyright_symbol.jpeg"> </div> 
+    </div>
+    
+</body>
+
+</html>
