@@ -16,7 +16,8 @@ title {
 /*Starts Jorge*/
 /* Slideshow container */
 .slideshow-container {
-  max-width: 600px;
+  width:80%; 
+  max-width: 1000px;
   position: relative;
   margin: auto;
 }
