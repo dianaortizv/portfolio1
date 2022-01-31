@@ -21,9 +21,6 @@ title {
   margin: auto;
 }
 
-#ScriptText {
-    display:none; 
-}
 
 @media (min-width:600px) {
     .slideshow-container {
