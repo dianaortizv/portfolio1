@@ -21,7 +21,7 @@ script {
 .slideshow-container {
   max-width: 1000px;
   position: relative;
-  margin: auto 20%;
+  margin: auto 50%;
 }
 
 /* Hide the images by default */
