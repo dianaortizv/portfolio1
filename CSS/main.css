@@ -21,7 +21,13 @@ script {
 .slideshow-container {
   max-width: 1000px;
   position: relative;
-  margin: auto 50%;
+  margin: auto;
+}
+
+@media (min-width:600px) {
+    .slideshow-container {
+        max-width: 500px;
+    }
 }
 
 /* Hide the images by default */
