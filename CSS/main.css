@@ -62,13 +62,12 @@ title {
 /* Caption text */
 .text {
   color: #f2f2f2;
-  font-size: 15px;
+  font-size: 0px;
   padding: 8px 12px;
   position: absolute;
   bottom: 8px;
   width: 100%;
   margin-left: 50%;
-  display:none; 
 }
 
 /* Number text (1/3 etc) */
